@@ -24,4 +24,3 @@ if certos == 6:
 else:
     print("Você perdeu")
 
-
