@@ -10,12 +10,19 @@ for i in range(5):
             coisa = "Média dos trabalhos"
         matriz[i][l] = int(input(f"Digite a {coisa} do aluno {i + 1}: "))
 
+maiorNota = 0
+
 for linha in matriz:
     soma = 0
     for i in range(4):
         if i == 1 or i == 2:
             soma += linha[i]
     linha[3] = soma/2
+    if maiorNota < soma/2:
+        maiorNota = soma/2
+        alunoMaiorNota = linha[0]
 
 for linha in matriz:
     print(linha)
+
+print(f"A matrícula do aluno com maior nota final é: {alunoMaiorNota}")
