@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Avengers;
+    src: url(/Web/enciclopedia/fonts/AVENGEANCE\ HEROIC\ AVENGER\ AT.ttf   );
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(/Web/enciclopedia/fonts/Coolvetica\ Rg.otf)
+}
+
+h1 {
+    font-family: "Avengers";
+    font-size: 60px;
+    text-align: center;
+}
+
+.cardsHerois {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: "Coolvetica";
+}
+
+.cardHerois {
+    background-color: rgb(21, 21, 21);
+    padding: 20px;
+    border: 1px, rgb(68, 68, 68), solid;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.cardHerois h2 {
+    font-family: "Avengers";
+    font-size: 30px;
+}
+
+.cardHerois h3 {
+    font-size: 24px;
+}
+
+.cardHerois img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.conteinerCard {
+    width: 300px;
+    height: 340px;
+}
+
+body {
+    background-color: rgb(11, 11, 11);
+}
+
+body h1 {
+    color: white;
+}
