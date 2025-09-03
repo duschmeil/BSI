@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: #0a58ff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.barraTopo {
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-weight: 700;
+  padding: 12px 0;
+  display: inline-block;
+}
+
+.menu {
+  float: right;
+  padding: 12px 0;
+}
+
+.menu a {
+  padding: 8px 10px;
+  color: #444;
+}
+
+.menu a:hover {
+  background: #eaeaea;
+  border-radius: 4px;
+}
+
+.menu .ativo {
+  background: #e0ecff;
+  border-radius: 4px;
+}
+
+@media (max-width: 700px) {
+  .menu {
+    float: none;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+}
+
+.conteudo {
+  padding-bottom: 24px;
+}
+
+.secao {
+  padding: 24px 0;
+}
+
+.destaque {
+  background: #fafafa;
+  border-bottom: 1px solid #eee;
+}
+
+h1, h2, h3 {
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 14px;
+  border: 1px solid #0a58ff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botaoPrimario {
+  background: #0a58ff;
+  color: #fff;
+}
+
+.botaoSecundario {
+  background: #fff;
+  color: #0a58ff;
+}
+
+.botaoPequeno {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid #0a58ff;
+  border-radius: 4px;
+  color: #0a58ff;
+}
+
+.gradeCartoes {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.cartao {
+  flex: 1 1 260px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  padding: 12px;
+}
+
+.cartao img {
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.caixaDoacao {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+  margin: 12px 0;
+}
+
+.formulario {
+  display: grid;
+  gap: 10px;
+  max-width: 420px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.listaPassos {
+  padding-left: 18px;
+}
+
+.pergunta {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #fafafa;
+  margin-top: 8px;
+}
+
+.rodape {
+  background: #f5f5f5;
+  border-top: 1px solid #ddd;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.menuRodape a {
+  margin: 0 6px;
+  color: #444;
+}
