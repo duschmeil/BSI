@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-image: linear-gradient(to right, rgb(105, 105, 255), rgb(117, 51, 183));
+    color: white;
+}
+
+header {
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding: 15px;
+    margin: 0px;
+}
+
+.selecionado {
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(105, 105, 255), rgb(117, 51, 183));
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+}
+
+main strong {
+    color: orange;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cards {
+    background-color: white;
+    color: rgb(112, 112, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cards img {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.cards p {
+    color: black;
+}
+
+.cards i {
+    color: blue;
+}
+
+.cards strong {
+    color: purple;
+}
+
+.cards mark {
+    color: white;
+    background-image: linear-gradient(to right, rgb(255, 111, 0), rgb(255, 200, 0));
+    padding: 4px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    margin-top: 140px;
+    background-color: black;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.conteinerDestinos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cardsDestinos {
+    background-color: white;
+    color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+    width: 800px;
+}
+
+.footerDestinos {
+    margin-top: 250px;
+    color: blueviolet;
+}
+
+.conteinerExperiencias {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    color: rgb(79, 79, 255);
+    width: 800px;
+    padding: 30px;
+    padding-top: 10px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.conteinerExperiencias button {
+    align-self: baseline;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgb(105, 105, 255), rgb(117, 51, 183));
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.conteinerExperiencias strong {
+    color: white;
+}
+
+.pSobre strong {
+    color: blueviolet;
+}
+
+.conteinerExperiencias input {
+    border-radius: 30px;
+    height: 30px;
+}
+
+.naoSelecionado:hover {
+    background-color: rgb(205, 205, 205);
+    padding: 10px;
+    border-radius: 20px;
+}

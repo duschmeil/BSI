@@ -17,7 +17,7 @@ public class Cadastro {
             System.out.println("6. Sair");
 
             int escolha = sc.nextInt();
-
+;
             if (escolha == 1) {
                 System.out.println("CADASTRAR UMA PESSOA");
                 System.out.println("Digite o NOME da pessoa: ");

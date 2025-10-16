@@ -48,7 +48,7 @@ h1 {
 
 .conteinerCard {
     width: 300px;
-    height: 340px;
+    height: 550px;
 }
 
 body {
@@ -57,4 +57,57 @@ body {
 
 body h1 {
     color: white;
+}
+
+mark { 
+    background-color: azure;
+    border-radius: 5px;
+    padding: 1px 2px;
+}
+
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #111; /* fundo da tabela */
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: "Coolvetica";
+}
+
+thead {
+  background-color: #222;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #444;
+  color: #fff; /* texto branco */
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+tr:nth-child(even) {
+  background-color: #1a1a1a; /* linhas alternadas */
+}
+
+tr:hover {
+  background-color: #333; /* destaque ao passar o mouse */
+}
+
+em {
+  color: #ccc; /* itálico mais suave */
+}
+
+footer {
+    background-color: white;
+    font-family: "Coolvetica";
+    text-align: center;
+    padding: 20px;
 }
